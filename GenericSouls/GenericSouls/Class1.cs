@@ -37,5 +37,10 @@ namespace GenericSouls
             return this.Age.CompareTo(that.Age);
         }
 
+        public override string ToString()
+        {
+            string i = this.name+ " || "+ this.age ;     
+            return i;
+        }
     }
 }

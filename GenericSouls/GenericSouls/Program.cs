@@ -96,7 +96,7 @@ namespace GenericSouls
                      }
                     BubbleSorter<TestingCollection> tryBubble = new BubbleSorter<TestingCollection>(itemList);
                     tryBubble.Sort();
-                    //tryBubble.Print();
+                    tryBubble.Print();
                     Console.ReadLine();
                     break;
 
@@ -112,7 +112,7 @@ namespace GenericSouls
                      } 
                     InsertionSorter<TestingCollection> tryInsertion = new InsertionSorter<TestingCollection>(itemListIns);
                     tryInsertion.Sort();
-                    // tryInsertion.Print();
+                    tryInsertion.Print();
                     Console.ReadLine();
                     break;
                                                             

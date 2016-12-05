@@ -9,6 +9,5 @@ namespace GenericSouls
     interface ISorter<T>: IPrintable
     {
         void Sort ();
-        void Swap(int a, int b);
     }
 }

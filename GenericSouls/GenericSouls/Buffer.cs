@@ -30,7 +30,7 @@ namespace GenericSouls
             else{
             foreach (T i in itemsList)
             {
-                Console.Write("{0} ", i);
+               Console.WriteLine(i);
             }
             Console.WriteLine();
          }

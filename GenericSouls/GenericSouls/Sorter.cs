@@ -28,18 +28,17 @@ namespace GenericSouls
 
         public void Print()
         {
-                                
             string test;
             test = itemsList[0] as string;
             if (test == string.Empty)
             {
-                Console.WriteLine("Cannot display results");
+                Console.WriteLine("String is empty");
             }
             else
             {
-                foreach (T i in itemsList)
+                foreach (T i in itemsList) 
                 {
-                    Console.Write("{0} ", i);
+                    Console.WriteLine(i);
                 }
                 Console.WriteLine();
             }
